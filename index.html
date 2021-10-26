@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1> High-Low Game </h1>
+    </header>
+<div class= 'start'>
+    <button class = 'new_game'>Start New Game</button>
+</div>
+    <div class = "space">
+        <div class= "player1_side">
+            <div class ="player1">Player 1</div>
+               <div class = "p1-card-count"> Card Count</div>
+<div>
+        <div class = 'description'> Description</div>
+</div>
+        </div>
+            <div type="text" class="info"> </div>
+        <div class ="player2_side">
+            <div class = "player2">Player 2</div>
+                <div class = "p2-card-count">Card Count</div>
+        </div>
+    </div>
+<div class = 'draw'>
+<button>DRAW</button>
+</div>
+<div class= 'cards'><Cards></Cards> </div>
     
+    <script src="main.js"></script>
 </body>
 </html>

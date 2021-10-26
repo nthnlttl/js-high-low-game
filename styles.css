@@ -1,0 +1,89 @@
+.player1 {
+    font-size: bold;
+    text-align: center;
+    padding: 10%;
+}
+
+.player2 {
+    font-size: bold;
+    text-align: center;
+    padding: 10%;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.space {
+    position: relative;
+}
+
+.player2_side {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin-left: 500px;
+}
+
+.player1_side {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+
+div {
+    display: flex;
+}
+
+.p2-card-count {
+    width: 150px;
+    height: 75px;
+    position: relative;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+
+.p1-card-count {
+    width: 150px;
+    height: 75px;
+    position: relative;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+
+button {
+    margin: 0 auto;
+}
+
+.start {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.draw {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 100px;
+}
+
